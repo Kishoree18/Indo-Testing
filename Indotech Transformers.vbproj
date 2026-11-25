@@ -1,0 +1,1587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CADFB8BD-96EF-4C97-914A-C8F637966800}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Indotech_Transformers.My.MyApplication</StartupObject>
+    <RootNamespace>Indotech_Transformers</RootNamespace>
+    <AssemblyName>Indotech Transformers</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Indotech Transformers.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Indotech Transformers.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Indotech Transformers.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Indotech Transformers.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autodesk.Inventor.Interop">
+      <HintPath>Inventor API dll\Autodesk.Inventor.Interop.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.3.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.26.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.26.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.1.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.9.1.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.9.0\lib\net462\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="ZstdSharp, Version=0.8.0.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.8.0\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic_inputs.Designer.vb">
+      <DependentUpon>Basic_inputs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Basic_inputs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventor3DViewer.vb" />
+    <Compile Include="Main_Panel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Panel.Designer.vb">
+      <DependentUpon>Main_Panel.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_New_User.Designer.vb">
+      <DependentUpon>Create_New_User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Create_New_User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bottom_Tank.Designer.vb">
+      <DependentUpon>Bottom_Tank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bottom_Tank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_Project.Designer.vb">
+      <DependentUpon>Create_Project.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Create_Project.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Project.Designer.vb">
+      <DependentUpon>Edit_Project.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Project.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Top_Tank.Designer.vb">
+      <DependentUpon>Top_Tank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Top_Tank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooler_Bank.Designer.vb">
+      <DependentUpon>Cooler_Bank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cooler_Bank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Basic_inputs.resx">
+      <DependentUpon>Basic_inputs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Panel.resx">
+      <DependentUpon>Main_Panel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_New_User.resx">
+      <DependentUpon>Create_New_User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bottom_Tank.resx">
+      <DependentUpon>Bottom_Tank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_Project.resx">
+      <DependentUpon>Create_Project.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Project.resx">
+      <DependentUpon>Edit_Project.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Top_Tank.resx">
+      <DependentUpon>Top_Tank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooler_Bank.resx">
+      <DependentUpon>Cooler_Bank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indotech logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUSSET.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JACKINGPAD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_TK_Type1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_TK_Type2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tk_type 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tk_type 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tk_type 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tk_type21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tankPlate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tankPlate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tank_height.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tank_height1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_type1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_type2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btm_tk_image_Ref.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btm_tank_image_ref.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UB_image_ref.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UB_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UB_new1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulling_eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UB_height.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UB_height1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JACKINGPAD2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUSSET1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JP_IMAGE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JP_IMAGE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JP_TOP_STFNR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLLER_GUSSET_T1L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLLER_GUSSET_T1R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLLER_GUSSET_T1L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROLLER_GUSSET_T1R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_SIDE_STIFNER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SIDE_PLATE_STIFNER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LV_STIFNER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HV_STIFNER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTCSIDE_2_STNR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTCSIDE_3_STNR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTCSIDE2_1DIM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTCSIDE2_2DIM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTCSIDE2_2DIM1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTCSIDE2_3DIM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_END_5DIM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_END_3DIM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_END_4DIM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HV_SIDETYPE2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HV_SIDETYPE2R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sampling_valve_P725_OLTC_END.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sampling_valve_P725_OLTC_END1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sampling_valve_P725_OLTC_END2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sampling_valve_P725_LV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sampling_valve_P725_LV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sampling_valve_P725_HV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sampling_valve_P725_OLTC_SIDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sampling_valve_P725_HV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drainvalve_oltc_End.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drainvalve_oltc_SIDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drainvalve_LV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drainvalve_HV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUIDINGPIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EARTHINGPAD_HV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EARTHINGPAD_LV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EARTHINGPAD_LV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLER_PIPE_HV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLER_PIPE_LV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_PIPE_HV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_PIPE_LV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coolerbank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coolerbank1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RADIATORSET.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLERBANKFV&amp;BV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLERBANKFV&amp;BV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLERBANKOLTCEND&amp;BV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLERBANKOLTCEND&amp;FV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLERBANKOLTCEND&amp;FV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLERBANKOLTCEND.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RADIATORSET_2IFRAME.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOMCOOLERPIPE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COOLERPIPE_PORT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_type1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_type2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_type2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tank_details.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank_all_details.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stiffner_HV_LV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stiffner_OLTC_OE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_COVER_TYPE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_COVER_TYPE2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_COVER_TYPE3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_COVER_TYPE4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TURRET_U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TURRET_V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TURRET_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TURRET_W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_limb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_limb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3limb_coredia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5limb_coredia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LC_3LIMB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LC_3LIMB_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LC_5LIMBS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ST_5L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_RIGHT_FVLV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_LEFT_FVLV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_LEFT_FVHV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_RIGHT_FVHV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_tank_ht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_T1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_T2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_tk_Input.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_tk_Input_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_TK_LWT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_tk_curbin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_tk_curb_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_tk_wth_T1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_PLT_WDH_T2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tk_t2LHV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tk_t2RHV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTM_TK_CURB1_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTM_TK_CURB1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTM_TK_CURB1_R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tk_t2LHV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_TK_RWT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btm_tk_t2LHVR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_tk_curb_in1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_tank_ht1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_BTM_TK_LWT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_BTM_TK_LWT1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_BTM_TK_CURB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_BTM_TK_CURB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_T1_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_T2_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_T1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curb_T2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UB_opt_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UB_opt_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UB_3rail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_t1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_t11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_ty1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_hv_t3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_hv_t2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_hv_t1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jacking_pad_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prob_support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_stiffner_t1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_stiffner_t3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_stiffner_t2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_stiffner_type1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_BTW1&amp;W2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_BTW1&amp;W2_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MOUNTING_PAD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FALTSTIFFNER_HV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLATSTIFF_T2_T2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLATSTIFF_T2_T3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLATSTIFF_T2_T3_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLATSTIFF_T2_T3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLATSTIFF_OLTCSIDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLATSTIFF_OLTCSIDE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTCENDSIDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_TK_LWT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_TK_LWT1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_TK_RWT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_TT_TK_LWT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_TT_TK_LWT1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2_TT_TK_RWT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_T1_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_T1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_T1_TR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_T1_TR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_649REF_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_649REF_2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_649REF_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_A_REF1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_A_REF2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_B_REF2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_B_REF1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_C_REF1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_C_REF2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_L_REF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_L_REF1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_CT_ANG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_IC_ANG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_650_REF1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_650_REF2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_650_REF2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T_650_REF1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_T1_TL1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2CB_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2CB_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB1_TH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB2_TH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB2_TH_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB1_TH_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB2_TH_R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV1_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV2_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_HV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_HV_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_LVOP1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_LVOP1_R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_LVOP1_R2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_LVOP1_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_LVOP1_L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_LVOP2_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_LVOP2_L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_LVOP2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_OLTC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_OLTC_DW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_OLTC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_HV_T2_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_HV_T2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_OLTC_T2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT1L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT1L_png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_S1S2L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_S1S2R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTCES1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT2L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT2R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT3L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT3R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT4L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT4R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT5L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT5L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TCT5R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HV_T2R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HV_T2L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HV_T1R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HV_T1L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HV&amp;LV_T1R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HV&amp;LV_T1L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HV_LV_T2R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HV_LV_T2L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVLVOE_T2L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVLVOE_T2L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVLVOE_T1R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVLVOE_T2L2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVLVOE_T1_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVLVOE_T1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVPIPE_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVPIPEFV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AFRAME.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AFRAME1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AFRAME2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conservator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_HVPIPE_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_LVPIPE_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_LVPIPE_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_OEPIPE_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_OEPIPE_R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_OEPIPE_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_HEADER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_HEADER1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AFRAME_DETAIL_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aframe_ref.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AFRAME_REF1X100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_S1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_S2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_S_T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_S_T2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLTC_S_T1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JP1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JP11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAN2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAN3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAN4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAN5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAN_FV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_TANK_COOLERPIPE1X100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_TANK_COOLERPIPE1X100_FV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTCP_X100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTCP_X100FV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTCP_X100FV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_2X50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTTOM_COOLERPIPE_ONAf_FV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_TANK_COOLERPIPE1X100_FVF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP_TANK_COOLERPIPE1X100_FV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTCP_X100FVF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TTCP_X100F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRD_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\THEMPKT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ODS_HV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ODS_LV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ODS_OLTCEND.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ODS_OLTCSIDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_T1_R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_T1_L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_T1_R2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_W2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_W2L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LV1_CB_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LV1_CB_L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LV1_CB_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LV1_TH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LVN_OLTCSIDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HV_S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_HV_L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TT_ST_HV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S_LV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S_LV2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S_H1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AFRAME_N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\channel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRD_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CE_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CE_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BL_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BL_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_OLTCOPP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_HV_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_HV_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_LV_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_LV_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_OLTCSIDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MARBOX_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MARBOX_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MARBOX_RIGHT1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SPRD_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOR_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOR_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SPRD_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AIRREL_RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AIRREL_LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UHF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_stf_refimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_stf_refimage_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HVN_INCLINED_SV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HVN_INCLINED_SV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HVN_INCLINED_FV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TURRET.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV1_L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV2_L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV1_R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV2_R1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV1_NS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV2_NS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV1_NSR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV_STF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BB_LV_STF1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JP_TOP_STFNR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_PIPE_HV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2_PIPE_LV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EARTHINGPAD_HV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EARTHINGPAD_LV2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mounting__Pad_Thickness_UB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Pipe_Port.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Pipe_Port1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Port.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Port1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Port2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Port3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Port4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Port5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooler_Port6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bottom_Cooler_Pipe_3Port.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_Cooler_Pipe_2Port.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bottom_2Port.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_3Port.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_CP_3Port.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BT_CP_2Port.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIFPS_HV_2Q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %284%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIFPS_HV_1Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIFPS_LV_2Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %2811%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIFPS_LV_1Q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_FrontViewTest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_FrontViewTest2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_FrontViewTest3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_FrontView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_BottomViewTest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_BottomView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_TopView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_SideView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CB_SideView1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trunk_FrontView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trunk_SideViewTest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trunk_SideView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trunk_IDODHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DC_TopView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DC_BotttomView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DC_FrontView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DC_SideView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLAT_Stiff_HVD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLAT_Stiff_LVD.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

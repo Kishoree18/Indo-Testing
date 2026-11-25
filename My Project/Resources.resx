@@ -1,0 +1,1417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="channel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\channel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trunk_SideViewTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trunk_SideViewTest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tank_details" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tank_details.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_t2RHV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_t2RHV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB1_TH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB1_TH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_tank_ht" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_tank_ht.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_S1S2L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_S1S2L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_TANK_COOLERPIPE1X100_FVF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_TANK_COOLERPIPE1X100_FVF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_HEADER1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_HEADER1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve_P725_OLTC_END1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve_P725_OLTC_END1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coolerbank1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coolerbank1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_tk_curbin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_tk_curbin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_TANK_COOLERPIPE1X100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_TANK_COOLERPIPE1X100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UB_height" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UB_height.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_LVOP1_L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_LVOP1_L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLER_PIPE_HV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLER_PIPE_HV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stiffner_HV_LV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stiffner_HV_LV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (12).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_END_3DIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_END_3DIM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLERBANKFV&amp;BV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLERBANKFV&amp;BV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_LEFT_FVLV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_LEFT_FVLV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (2)5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (2)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DC_TopView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DC_TopView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_S_T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_S_T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AFRAME2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AFRAME2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JP_TOP_STFNR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JP_TOP_STFNR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRD_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRD_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_OLTC_DW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_OLTC_DW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_t11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_t11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve_P725_OLTC_SIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve_P725_OLTC_SIDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV1_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV1_R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_TK_LWT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_TK_LWT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_LVPIPE_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_LVPIPE_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_BTM_TK_LWT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_BTM_TK_LWT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_T1_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_T1_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_B_REF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_B_REF2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_HV_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_HV_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTCENDSIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTCENDSIDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Pipe_Port1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Pipe_Port1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TURRET_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TURRET_W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTCSIDE2_2DIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTCSIDE2_2DIM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JP_TOP_STFNR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JP_TOP_STFNR1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_649REF_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_649REF_2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_T2_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_T2_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drainvalve_oltc_SIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drainvalve_oltc_SIDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LV1_CB_L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LV1_CB_L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indotech logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indotech logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HV&amp;LV_T1R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HV&amp;LV_T1R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLAT_Stiff_HVD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLAT_Stiff_HVD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HVN_INCLINED_FV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HVN_INCLINED_FV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TTCP_X100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TTCP_X100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drainvalve_oltc_End" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drainvalve_oltc_End.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_BTM_TK_LWT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_BTM_TK_LWT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_TopView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_TopView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pulling_eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pulling_eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROLLER_GUSSET_T1L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROLLER_GUSSET_T1L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_T2_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_T2_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_LVOP2_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_LVOP2_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btm_tank_image_ref" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btm_tank_image_ref.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_BTW1&amp;W2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_BTW1&amp;W2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3_limb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3_limb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Port6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Port6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_BTM_TK_CURB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_BTM_TK_CURB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_649REF_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_649REF_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_TK_Type1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_TK_Type1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_hv_t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_hv_t2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTCSIDE2_1DIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTCSIDE2_1DIM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_tank_ht1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_tank_ht1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_PIPE_HV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_PIPE_HV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT2L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT2L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HVN_INCLINED_SV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HVN_INCLINED_SV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_SideView1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_SideView1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_HV_T2_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_HV_T2_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_COVER_TYPE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_COVER_TYPE2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOMCOOLERPIPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOMCOOLERPIPE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_L_REF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_L_REF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROLLER_GUSSET_T1L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROLLER_GUSSET_T1L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GOR_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GOR_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTHINGPAD_LV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EARTHINGPAD_LV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIFPS_HV_2Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NIFPS_HV_2Q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_S_T1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_S_T1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_hv_t3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_hv_t3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat_stiffner_t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat_stiffner_t2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prob_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prob_support.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JP_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JP_IMAGE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DC_FrontView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DC_FrontView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UB_new1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UB_new1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT1L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT1L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_T1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_T1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BL_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BL_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV_STF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV_STF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trunk_FrontView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trunk_FrontView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_tk_curb_in1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_tk_curb_in1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_t2LHV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_t2LHV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tank_height1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tank_height1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_OLTCSIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_OLTCSIDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat_stiffner_t3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat_stiffner_t3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (1)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (1)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_T1_TR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_T1_TR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_TT_TK_LWT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_TT_TK_LWT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drainvalve_HV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drainvalve_HV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve_P725_OLTC_END2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve_P725_OLTC_END2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HV_SIDETYPE2R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HV_SIDETYPE2R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LC_3LIMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LC_3LIMB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLATSTIFF_T2_T3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLATSTIFF_T2_T3_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAN4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAN4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JACKINGPAD2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JACKINGPAD2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_649REF_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_649REF_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_LV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_LV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UB_opt_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UB_opt_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTCSIDE_2_STNR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTCSIDE_2_STNR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DC_SideView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DC_SideView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_CT_ANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_CT_ANG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_T1_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_T1_R2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_CP_2Port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_CP_2Port.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SIDE_PLATE_STIFNER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SIDE_PLATE_STIFNER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stiffner_OLTC_OE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stiffner_OLTC_OE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bottom_Cooler_Pipe_3Port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bottom_Cooler_Pipe_3Port.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_OLTC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_OLTC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV2_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV2_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTCES1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTCES1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_TK_RWT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_TK_RWT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_TK_RWT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_TK_RWT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (8).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLERBANKFV&amp;BV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLERBANKFV&amp;BV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAN5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAN5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve_P725_HV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve_P725_HV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV2_NS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV2_NS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_650_REF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_650_REF2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SPRD_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SPRD_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_C_REF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_C_REF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conservator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\conservator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAf_FV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAf_FV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV2_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV2_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GOR_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GOR_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_PIPE_LV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_PIPE_LV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_type2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_type2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LV1_CB_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LV1_CB_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ST_5L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ST_5L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_type 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_type 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HV&amp;LV_T1L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HV&amp;LV_T1L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_PIPE_LV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_PIPE_LV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_A_REF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_A_REF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_type1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_type1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TTCP_X100FV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TTCP_X100FV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_S1S2R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_S1S2R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_BottomView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_BottomView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (4)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FALTSTIFFNER_HV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FALTSTIFFNER_HV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UB_image_ref" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UB_image_ref.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIFPS_HV_1Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NIFPS_HV_1Q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_type 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_type 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2CB_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2CB_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TURRET_V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TURRET_V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_LVOP2_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_LVOP2_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_SideView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_SideView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_T1_TR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_T1_TR1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_LV_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_LV_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_OLTCOPP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_OLTCOPP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_BottomViewTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_BottomViewTest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT2R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT2R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_BTW1&amp;W2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_BTW1&amp;W2_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_LVPIPE_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_LVPIPE_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB2_TH_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB2_TH_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat_stf_refimage_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat_stf_refimage_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVPIPE_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVPIPE_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT3L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT3L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AFRAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AFRAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_COVER_TYPE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_COVER_TYPE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MOUNTING_PAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MOUNTING_PAD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_LVOP1_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_LVOP1_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3limb_coredia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3limb_coredia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV1_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV1_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat_stiffner_t1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat_stiffner_t1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Port4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Port4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTCSIDE2_2DIM1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTCSIDE2_2DIM1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CE_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CE_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_SIDE_STIFNER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_SIDE_STIFNER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_t2LHVR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_t2LHVR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_tk_curb_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_tk_curb_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_ty1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_ty1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JP11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JP11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_Cooler_Pipe_2Port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_Cooler_Pipe_2Port.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LVN_OLTCSIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LVN_OLTCSIDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLERBANKOLTCEND&amp;FV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLERBANKOLTCEND&amp;FV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GUSSET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GUSSET.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLER_PIPE_LV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLER_PIPE_LV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODS_OLTCEND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODS_OLTCEND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_t2LHV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_t2LHV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_type2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_type21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV_STF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV_STF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MARBOX_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MARBOX_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Port2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Port2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_LVOP1_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_LVOP1_R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drainvalve_LV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drainvalve_LV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Port5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Port5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAN_FV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAN_FV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve_P725_HV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve_P725_HV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_L_REF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_L_REF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_TT_TK_LWT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_TT_TK_LWT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLATSTIFF_T2_T3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLATSTIFF_T2_T3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RADIATORSET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RADIATORSET.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BTM_TK_CURB1_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BTM_TK_CURB1_R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAN3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAN3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_OEPIPE_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_OEPIPE_R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVLVOE_T2L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVLVOE_T2L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_T1_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_T1_R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AIRREL_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AIRREL_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UB_opt_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UB_opt_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tank_height" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tank_height.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AFRAME1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AFRAME1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLATSTIFF_OLTCSIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLATSTIFF_OLTCSIDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Port3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Port3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btm_tk_image_Ref" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btm_tk_image_Ref.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GUSSET1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GUSSET1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB1_TH_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB1_TH_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODS_OLTCSIDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODS_OLTCSIDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HV_LV_T2L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HV_LV_T2L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROLLER_GUSSET_T1R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROLLER_GUSSET_T1R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JP_IMAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JP_IMAGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_LV_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_LV_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLATSTIFF_T2_T2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLATSTIFF_T2_T2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_type 23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_type 22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_B_REF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_B_REF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tankPlate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tankPlate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_type1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_type1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TURRET_V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TURRET_V.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MARBOX_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MARBOX_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_650_REF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_650_REF1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_S1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_S1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RADIATORSET_2IFRAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RADIATORSET_2IFRAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_TANK_COOLERPIPE1X100_FV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_TANK_COOLERPIPE1X100_FV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UB_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UB_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_FrontView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_FrontView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV1_NSR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV1_NSR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVLVOE_T2L2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVLVOE_T2L2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bottom_2Port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bottom_2Port.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HV_T2L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HV_T2L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GUIDINGPIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GUIDINGPIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AIRREL_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AIRREL_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_FrontViewTest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_FrontViewTest2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVLVOE_T1_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVLVOE_T1_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HVN_INCLINED_SV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HVN_INCLINED_SV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_LVOP2_L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_LVOP2_L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve_P725_LV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve_P725_LV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTTOM_COOLERPIPE_ONAN2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTTOM_COOLERPIPE_ONAN2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LV1_CB_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LV1_CB_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (2)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (2)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV2_L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV2_L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV1_NS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV1_NS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HV_SIDETYPE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HV_SIDETYPE2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_type2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_type2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLATSTIFF_T2_T3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLATSTIFF_T2_T3_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HV_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HV_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_HV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_HV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVPIPEFV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVPIPEFV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLERBANKOLTCEND&amp;BV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLERBANKOLTCEND&amp;BV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_T1_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_T1_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_HV_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_HV_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLERBANKOLTCEND&amp;FV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLERBANKOLTCEND&amp;FV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LC_3LIMB_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LC_3LIMB_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODS_HV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODS_HV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT4L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT4L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ODS_LV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ODS_LV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_TK_Type2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_TK_Type2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BTM_TK_CURB1_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BTM_TK_CURB1_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coolerbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coolerbank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_H1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_H1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_C_REF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_C_REF2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5limb_coredia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5limb_coredia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTHINGPAD_LV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EARTHINGPAD_LV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UB_height1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UB_height1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N2_PIPE_HV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N2_PIPE_HV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_HV_L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_HV_L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trunk_SideView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trunk_SideView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_tk_wth_T1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_tk_wth_T1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_RIGHT_FVLV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_RIGHT_FVLV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AFRAME_N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AFRAME_N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SPRD_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SPRD_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TTCP_X100FVF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TTCP_X100FVF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_TANK_COOLERPIPE1X100_FV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_TANK_COOLERPIPE1X100_FV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV1_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV1_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_hv_t1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_hv_t1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_S_T2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_S_T2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_tk_Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_tk_Input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV2_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV2_R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVLVOE_T2L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVLVOE_T2L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT5L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT5L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BTM_TK_CURB1_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BTM_TK_CURB1_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTHINGPAD_HV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EARTHINGPAD_HV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank_all_details" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank_all_details.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="THEMPKT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\THEMPKT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRD_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRD_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BB_LV1_L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BB_LV1_L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_PLT_WDH_T2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_PLT_WDH_T2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT1L_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT1L_png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve_P725_LV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve_P725_LV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_FrontViewTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_FrontViewTest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (2)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (2)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (5).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_LVOP1_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_LVOP1_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_LV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_LV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LV_STIFNER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LV_STIFNER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Port1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Port1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DC_BotttomView" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DC_BotttomView.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_3Port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_3Port.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB2_TH_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB2_TH_R1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_TT_TK_RWT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_TT_TK_RWT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MARBOX_RIGHT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MARBOX_RIGHT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_650_REF2_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_650_REF2_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTCSIDE_3_STNR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTCSIDE_3_STNR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIFPS_LV_2Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NIFPS_LV_2Q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_T1_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_T1_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HV_T1L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HV_T1L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aframe_ref" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aframe_ref.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat_stiffner_type1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat_stiffner_type1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_END_4DIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_END_4DIM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (10).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVLVOE_T1R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVLVOE_T1R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curb_type2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curb_type2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tankPlate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tankPlate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_RIGHT_FVHV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_RIGHT_FVHV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB2_TH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB2_TH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLERBANKOLTCEND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLERBANKOLTCEND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT4R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT4R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_TK_LWT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_TK_LWT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TTCP_X100FV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TTCP_X100FV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_OEPIPE_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_OEPIPE_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_W2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_W2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Pipe_Port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Pipe_Port.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HV_T1R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HV_T1R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_2X50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_2X50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AFRAME_DETAIL_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AFRAME_DETAIL_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_t1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_t1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_LEFT_FVHV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_LEFT_FVHV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_T1_L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_T1_L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_HEADER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_HEADER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_tk_Input_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_tk_Input_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_A_REF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_A_REF2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_CP_3Port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_CP_3Port.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BL_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BL_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_S2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_S2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2CB_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2CB_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_OLTC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_OLTC1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_OEPIPE_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_OEPIPE_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_OLTC_T2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_OLTC_T2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_HV_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_HV_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HV_LV_T2R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HV_LV_T2R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_W2L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_W2L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIFPS_LV_1Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NIFPS_LV_1Q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT5R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT5R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LV1_TH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LV1_TH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HV_T2R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HV_T2R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVLVOE_T1_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVLVOE_T1_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_TK_LWT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_TK_LWT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_FrontViewTest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_FrontViewTest3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_650_REF1_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_650_REF1_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LC_5LIMBS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LC_5LIMBS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UHF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UHF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AFRAME_REF1X100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AFRAME_REF1X100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sampling_valve_P725_OLTC_END" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sampling_valve_P725_OLTC_END.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JP1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (2)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TURRET_U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TURRET_U.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT3R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT3R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CE_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CE_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HV_STIFNER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HV_STIFNER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLATSTIFF_OLTCSIDE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLATSTIFF_OLTCSIDE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCT5L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCT5L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trunk_IDODHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trunk_IDODHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_IC_ANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_IC_ANG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTHINGPAD_HV1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EARTHINGPAD_HV1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_COVER_TYPE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_COVER_TYPE3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_HV_T2_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_HV_T2_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROLLER_GUSSET_T1R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROLLER_GUSSET_T1R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2_BTM_TK_CURB1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T2_BTM_TK_CURB1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btm_tk_type 22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btm_tk_type 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_T1_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_T1_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TTCP_X100F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TTCP_X100F.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTCSIDE2_3DIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTCSIDE2_3DIM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_T1_TL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_T1_TL1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CB_HVPIPE_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CB_HVPIPE_R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flat_stf_refimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flat_stf_refimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TURRET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TURRET.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooler_Port" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooler_Port.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UB_3rail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UB_3rail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OLTC_END_5DIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OLTC_END_5DIM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JACKINGPAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JACKINGPAD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_LVOP1_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_LVOP1_R2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5_limb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5_limb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mounting__Pad_Thickness_UB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mounting__Pad_Thickness_UB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOLERPIPE_PORT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOLERPIPE_PORT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTHINGPAD_LV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EARTHINGPAD_LV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BT_T2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BT_T2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOP_COVER_TYPE4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOP_COVER_TYPE4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jacking_pad_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jacking_pad_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TT_ST_HV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TT_ST_HV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FLAT_Stiff_LVD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FLAT_Stiff_LVD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,1826 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Indotech Transformers
+</name>
+</assembly>
+<members>
+<member name="T:Indotech_Transformers.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources._2CB_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources._2CB_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources._3_limb">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources._3limb_coredia">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources._5_limb">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources._5limb_coredia">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.AFRAME">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.AFRAME_DETAIL_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.AFRAME_N">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Aframe_ref">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.AFRAME_REF1X100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.AFRAME1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.AFRAME2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.AIRREL_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.AIRREL_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV_STF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV_STF1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV1_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV1_L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV1_NS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV1_NSR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV1_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV1_R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV2_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV2_L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV2_NS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV2_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BB_LV2_R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BL_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BL_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAf_FV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAN_FV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAN1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAN2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAN3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAN4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOM_COOLERPIPE_ONAN5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BOTTOMCOOLERPIPE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BT_PLT_WDH_T2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BT_T1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BT_T2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.bt_tank_ht">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.bt_tank_ht1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.bt_tk_curb_in">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.bt_tk_curb_in1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.bt_tk_curbin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.bt_tk_Input">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.bt_tk_Input_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BT_TK_LWT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BT_TK_RWT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BT_TK_Type1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BT_TK_Type2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.bt_tk_wth_T1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tank_height">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tank_height1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.btm_tank_image_ref">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tankPlate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tankPlate1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BTM_TK_CURB1_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BTM_TK_CURB1_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.BTM_TK_CURB1_R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.btm_tk_image_Ref">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_t2LHV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_t2LHV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_t2LHVR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_t2RHV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_type_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_type_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_type_22">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_type_23">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Btm_tk_type2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_2X50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HV_LV_T1L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HV_LV_T1R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HV_LV_T2L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HV_LV_T2R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HV_T1L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HV_T1R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HV_T2L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HV_T2R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVLVOE_T1_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVLVOE_T1_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVLVOE_T1R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVLVOE_T2L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVLVOE_T2L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVLVOE_T2L2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVPIPE_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVPIPE_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_HVPIPEFV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_LVPIPE_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_LVPIPE_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_OEPIPE_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_OEPIPE_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_OEPIPE_R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB_R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB1_TH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB1_TH_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB2_TH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB2_TH_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CB2_TH_R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CE_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.CE_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.channel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.conservator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLER_PIPE_HV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLER_PIPE_LV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Coolerbank">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Coolerbank1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLERBANKFV_BV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLERBANKFV_BV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLERBANKOLTCEND">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLERBANKOLTCEND_BV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLERBANKOLTCEND_FV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLERBANKOLTCEND_FV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.COOLERPIPE_PORT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_T1_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_T1_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_T2_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_T2_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_type1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_type1_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_type2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_type2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.curb_type2_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.download1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.download2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.drainvalve_HV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.drainvalve_LV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.drainvalve_oltc_End">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.drainvalve_oltc_SIDE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.EARTHINGPAD_HV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.EARTHINGPAD_LV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.EARTHINGPAD_LV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.FALTSTIFFNER_HV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.flat_stf_refimage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.flat_stf_refimage_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.flat_stiffner_t1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.flat_stiffner_t2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.flat_stiffner_t3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.flat_stiffner_type1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.FLATSTIFF_OLTCSIDE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.FLATSTIFF_OLTCSIDE1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.FLATSTIFF_T2_T2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.FLATSTIFF_T2_T3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.FLATSTIFF_T2_T3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.FLATSTIFF_T2_T3_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.GOR_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.GOR_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.GUIDINGPIN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.GUSSET">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.GUSSET1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.HV_S">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.HV_SIDETYPE2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.HV_SIDETYPE2R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.HV_STIFNER">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.HVN_INCLINED_FV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.HVN_INCLINED_SV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.HVN_INCLINED_SV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.image1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.indotech_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_hv_t1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_hv_t2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_hv_t3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_t1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_t11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.jacking_pad_ty1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.JACKINGPAD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.JACKINGPAD2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.JP_IMAGE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.JP_IMAGE1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.JP_TOP_STFNR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.JP_TOP_STFNR1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.JP1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.JP11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LC_3LIMB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LC_3LIMB_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LC_5LIMBS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LV_STIFNER">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LV1_CB_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LV1_CB_L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LV1_CB_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LV1_TH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.LVN_OLTCSIDE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.MARBOX_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.MARBOX_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.MARBOX_RIGHT1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.MOUNTING_PAD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.N2_HV_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.N2_HV_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.N2_LV_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.N2_LV_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.N2_OLTCOPP">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.N2_OLTCSIDE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.N2_PIPE_HV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.N2_PIPE_LV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ODS_HV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ODS_LV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ODS_OLTCEND">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ODS_OLTCSIDE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_END_3DIM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_END_4DIM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_END_5DIM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_LEFT_FVHV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_LEFT_FVLV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_RIGHT_FVHV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_RIGHT_FVLV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_S_T">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_S_T1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_S_T2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_S1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_S1S2L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_S1S2R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_S2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTC_SIDE_STIFNER">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTCENDSIDE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTCES1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTCSIDE_2_STNR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTCSIDE_3_STNR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTCSIDE2_1DIM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTCSIDE2_2DIM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTCSIDE2_2DIM1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.OLTCSIDE2_3DIM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.PRD_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.PRD_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.prob_support">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.pulling_eye">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.RADIATORSET">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.RADIATORSET_2IFRAME">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ROLLER_GUSSET_T1L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ROLLER_GUSSET_T1L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ROLLER_GUSSET_T1R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ROLLER_GUSSET_T1R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.S_H1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.S_LV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.S_LV2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve_P725_HV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve_P725_HV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve_P725_LV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve_P725_LV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve_P725_OLTC_END">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve_P725_OLTC_END1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve_P725_OLTC_END2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.sampling_valve_P725_OLTC_SIDE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.SIDE_PLATE_STIFNER">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.SPRD_LEFT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.SPRD_RIGHT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ST">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.ST_5L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Stiffner_HV_LV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Stiffner_OLTC_OE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_649REF_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_649REF_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_649REF_2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_650_REF1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_650_REF1_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_650_REF2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_650_REF2_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_A_REF1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_A_REF2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_B_REF1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_B_REF2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_C_REF1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_C_REF2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_CT_ANG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_IC_ANG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_L_REF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T_L_REF1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_BTM_TK_CURB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_BTM_TK_CURB1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_BTM_TK_LWT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_BTM_TK_LWT1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_BTW1_W2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_BTW1_W2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_TT_TK_LWT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_TT_TK_LWT1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.T2_TT_TK_RWT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.Tank_all_details">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.tank_details">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT1L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT1L_png">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT2L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT2R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT3L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT3R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT4L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT4R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT5L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT5L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TCT5R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.THEMPKT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_COVER_TYPE1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_COVER_TYPE2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_COVER_TYPE3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_COVER_TYPE4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_HEADER">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_HEADER1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_TANK_COOLERPIPE1X100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_TANK_COOLERPIPE1X100_FV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_TANK_COOLERPIPE1X100_FV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TOP_TANK_COOLERPIPE1X100_FVF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_HV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_HV_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_HV_L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_HV_T2_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_HV_T2_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_HV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_LVOP1_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_LVOP1_L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_LVOP1_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_LVOP1_R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_LVOP1_R2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_LVOP2_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_LVOP2_L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_LVOP2_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_OLTC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_OLTC_DW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_OLTC_T2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_ST_OLTC1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_T1_L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_T1_L1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_T1_R">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_T1_R1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_T1_R2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_T1_TL1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_T1_TR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_T1_TR1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_TK_LWT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_TK_LWT1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_TK_RWT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_W2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TT_W2L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TTCP_X100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TTCP_X100F">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TTCP_X100FV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TTCP_X100FV1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TTCP_X100FVF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TURRET">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TURRET_U">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TURRET_V">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TURRET_V1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.TURRET_W">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UB_3rail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UB_height">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UB_height1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UB_image_ref">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UB_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UB_new1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UB_opt_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UB_opt_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Indotech_Transformers.My.Resources.Resources.UHF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
